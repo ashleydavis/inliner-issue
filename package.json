@@ -1,0 +1,17 @@
+{
+  "name": "inliner-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-working": "inliner index.html > out/index.html",
+    "build-broken": "node ./build-broken.js",
+    "build-workaround": "node ./build-workaround.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inliner": "^1.13.1"
+  }
+}
