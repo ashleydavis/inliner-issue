@@ -4,9 +4,9 @@
 
 const { execSync } = require("child_process");
 
-const cmd = "cat index.html | inliner > out/index.html";
+const cmd = "cat index.html | npx inliner > out/index.html";
 
-console.log(`Invoking ${cmd}`);
+console.log(`Invoking "${cmd}"`);
 
 const result = execSync(cmd);
 
